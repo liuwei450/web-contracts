@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo/Callee01.sol": "Callee01"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo/Callee01.sol": {
+			"keccak256": "0x0271d4486e3a379c9dbc0495f941c60c428c28fe05a66434212cdb4c235487c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76952a3ea4c8e9e6ccf919e14377dbf26b11c99a0e1f27c2c1048b82a31e314d",
+				"dweb:/ipfs/QmYkp7n1Bjz2MBwea8dWQf8rY1fFNnfPe7HJ6Cfx722tty"
+			]
+		}
+	},
+	"version": 1
+}
